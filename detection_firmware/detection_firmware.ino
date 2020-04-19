@@ -10,8 +10,8 @@
 #include "variables.h"
 #include "serialcom.h"
 #include "timecontrol.h"
-#include "measureOperations.h"
 #include "datasave.h"
+#include "measureOperations.h"
 
 void setup() {
   // set up status LEDs
@@ -50,7 +50,7 @@ void loop() {
   waitingLedOff();
   
   // measure and log frequency
-  log_data(measure_frequency());
+  measure_frequency();
 
   // sign waiting at status leds
   waitingLedOn();

@@ -8,8 +8,8 @@ const boolean DEBUG_MODE = false;
 // General
 const int SERIAL_BAUD_RATE = 9600;
 const String SD_DATAFILE_NAME = "data.txt";
-const int SECONDS_BETWEEN_MEASUREMENTS = 60;
-const int SECONDS_FOR_MEASUREMENT = 30;
+const int SECONDS_BETWEEN_MEASUREMENTS = 240;
+const int SECONDS_FOR_MEASUREMENT = 360;
 const int MAX_HZ = 10;
 
 // PINS Arduino Uno

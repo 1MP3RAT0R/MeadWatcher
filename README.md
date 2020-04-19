@@ -70,6 +70,5 @@ Will be added shortly
 ## 6. latest News
 
 Date | News
---- | ---
 19. April 2020 | Adding hitcount in the Datasave
 18. April 2020 | First Prototype is measuring!

@@ -41,5 +41,5 @@ float measure_frequency() {
   logSerialLineln(" HZ");
 
   // return Frequency
-  return BUBBLE_FREQUENCY;
+  log_data(BUBBLE_FREQUENCY, IMPULSE_COUNTER);
 }

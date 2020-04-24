@@ -18,7 +18,7 @@ float measure_frequency() {
   IMPULSE_COUNTER = 0;
 
   // get exit system millis (not rtc, not needed here)
-  EXIT_MILLIS = millis() + (SECONDS_FOR_MEASUREMENT * 1000);
+  EXIT_MILLIS = millis() + ((long) SECONDS_FOR_MEASUREMENT * 1000);
 
   // run loop for the amount of seconds defined
   while (EXIT_MILLIS >= millis()) {
